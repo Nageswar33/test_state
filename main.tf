@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "nageswar-test-bucket"
-    key    = "09-state/terraform.tfstate"
+    key    = "test_state/terraform.tfstate"
     region = "us-east-1"
   }
 }
